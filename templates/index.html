@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>job applying site</title>
-    <link rel="stylesheet" href="style.css"height="30">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
 </head>
 <body>
+    <div id="contianer">
+        <h1>Job hunting</h1>
 
-    <h1>Job hunting</h1>
+        <img id="banner" src="http://127.0.0.1:5001/static/pic.jpg" 
+        height="350px">
 
-    <img src="http://127.0.0.1:5001/static/pic.jpg" 
-    height="350px">
-
-    <h2> About job hunting </h2>
-    <p>Lorem ipsum dolor sit amet.
-         Nam minus cupiditate sit explicabo dolorem 
-         ut velit iusto et consequatur culpa. 
-         Eum quia quibusdam in nihil amet aut 
-         atque consequatur qui laudantium voluptatem 
-         et voluptates eius. Ut dignissimos odit et
-          architecto placeat qui consequatur 
-          assumenda.
-        </p>
-        <h2>Job opening</h2>
-        <h2>job list here</h2>
-        <button>appy</button>
+        <h2> About job hunting </h2>
+        <p>Lorem ipsum dolor sit amet.
+            Nam minus cupiditate sit explicabo dolorem 
+            ut velit iusto et consequatur culpa. 
+            Eum quia quibusdam in nihil amet aut 
+            atque consequatur qui laudantium voluptatem 
+            et voluptates eius. Ut dignissimos odit et
+            architecto placeat qui consequatur 
+            assumenda.
+            </p>
+            <h2>Job opening</h2>
+            <h2>job list here</h2>
+            <button>appy</button>
 
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>

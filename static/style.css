@@ -1,0 +1,24 @@
+h1{
+    font-family: Roboto;
+    font-weight: bold;
+    
+}
+#banner{
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+} 
+h2{
+    font-family: Roboto;
+    font-size: 32px;
+    color: rgb(43, 42, 40);
+}
+p{
+    font-family: Robot;
+    color: rgb(37, 36, 34);
+}
+#contianer{
+    max-width: 720px;
+    margin: 0 auto;
+}
+
