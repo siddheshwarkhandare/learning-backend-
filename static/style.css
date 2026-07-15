@@ -11,14 +11,15 @@ h1{
 h2{
     font-family: Roboto;
     font-size: 32px;
-    color: rgb(43, 42, 40);
+    color: rgb(102, 89, 62);
 }
-p{
-    font-family: Robot;
+.bodytext{
+    font-family: Roboto;
     color: rgb(37, 36, 34);
 }
-#contianer{
-    max-width: 720px;
+#con{
+    max-width:720px;
     margin: 0 auto;
+    text-align:center;
 }
 
